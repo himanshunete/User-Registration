@@ -5,7 +5,7 @@ echo Enter Last Name
 read LastName
 if [[ $LastName =~ $Pattern_For_Valid_LastName ]]
 then
-echo Pattern is matching
+   echo Pattern is matching
 else
-echo Pattern is not matching
+   echo Pattern is not matching
 fi
